@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.inicio{
+display: flex;
+flex-direction: column;
+background-color: gray;
+
+}
+.meio{
+display: flex;
+flex-direction: column;
+background-color: darkgrey;
+flex: 1;
+}
+.fim{
+display: flex;
+flex-direction: column;
+}
+.container{
+    width: max-content;
+    height: max-content;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+table, tr, td{
+    border:1px black solid;
+    width: 300px;
+    border-collapse: collapse;
+}
+footer{
+    
+}
