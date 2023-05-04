@@ -1,0 +1,3 @@
+do while faz os comandos e testa as condiçoes
+while so faz os comandos se as condiçoes forem verdadeiras 
+for (usado mais em variaveis de indices vetores) varre de uma vez só e é finito
