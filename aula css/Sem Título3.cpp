@@ -11,6 +11,7 @@ int main(){
 		printf("%d\n", cont);
 	
 		//cont = cont + 1
+		//cont += 2 = cont + 2
 		cont++;
 }
 return 0;
