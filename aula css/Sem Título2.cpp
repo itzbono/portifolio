@@ -1,7 +1,14 @@
 #include <stdio.h>
+#include <locale.h>
+#include <iostream>
 
+/*
+	%d - int
+	%f - float 
+	%c - char
+	%s - string
 int main(){
-	//Declaração da variavel
+	//DeclaraÃ§Ã£o da variavel
 	float a1, a2, media, af, maior;
 	
 	//Professor precisa digitar nota entre 0 e 5
@@ -16,11 +23,11 @@ int main(){
 } while(a2 < 0 || a2 > 5 );
 	
 	
-	//Calculo da media é a1 + a2
+	//Calculo da media Ã© a1 + a2
 	media = a1 + a2;
 		printf("Valor da Media: %0.2f", media);
 	
-	//Verifica se o aluno foi aprovado ou não	
+	//Verifica se o aluno foi aprovado ou nÃ£o	
 	if (media >= 6){
 		printf("\nAprovado");
 	}else {
