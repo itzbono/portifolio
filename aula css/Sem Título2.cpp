@@ -15,11 +15,13 @@ int main(){
 	
 	//Professor precisa digitar nota entre 0 e 5
 	do{
+		system ("cls")
 		printf("Digite A1:");
 		scanf("%f", &a1);
 } while(a1 < 0 || a1 > 5);
 
 	do{
+		system ("cls")
 		printf("Digite A2:");
 		scanf("%f", &a2);
 } while(a2 < 0 || a2 > 5 );
@@ -36,6 +38,7 @@ int main(){
 		printf("\nAluno em AF");
 		
 		do{
+		system ("cls")
 		printf("\nDigite AF:");
 		scanf("%f", &af);
 	} while(af < 0 || af > 5);
