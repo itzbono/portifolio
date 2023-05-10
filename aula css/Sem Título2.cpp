@@ -9,6 +9,7 @@
 	%s - string
 */
 int main(){
+	setlocale(LC_ALL, "portuguese");
 	//Declaração da variavel
 	float a1, a2, media, af, maior;
 	
