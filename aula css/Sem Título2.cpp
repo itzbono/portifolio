@@ -7,6 +7,7 @@
 	%f - float 
 	%c - char
 	%s - string
+/*
 int main(){
 	//Declaração da variavel
 	float a1, a2, media, af, maior;
